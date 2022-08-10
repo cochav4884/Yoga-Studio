@@ -1,15 +1,20 @@
-import './styles.css';
-import './about.css';
+import './index2.css';
+import './index.css.';
+import  './about.html';
+import 'ashtanga.html';
+import 'bikram.html';
+import 'contact.html';
+import 'hatha.html';
+import 'index2.html';
+import 'iyengar.html';
+import 'kundalini.html';
+import 'restorative.html';
+import 'vinyasa.html';
+import 'yin.html';
 
-const styles = {
- 
-}
 
-const about = {
-  
-}
 
-function css() {
+function App() {
   return (
     <div>
       <header>
@@ -19,4 +24,4 @@ function css() {
   );
 }
 
-export default css;
+export default App;
